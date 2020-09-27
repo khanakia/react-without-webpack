@@ -123,5 +123,5 @@ const Home = props => {
     </div>
   )
 }
-const Contact = props => <h1>Contact</h1>
-const Products = props => <h1>Products</h1>
+const Contact = props => <div className="container pl-4 mt-5"><h1>Contact</h1></div>
+const Products = props => <div className="container pl-4 mt-5"><h1>Products</h1></div>
