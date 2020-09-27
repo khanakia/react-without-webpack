@@ -2,7 +2,7 @@ const Link = ReactRouterDOM.Link,
 Route = ReactRouterDOM.Route;
 
 const App = (props) => (
-	<ReactRouterDOM.BrowserRouter basename="/react-demo1">
+	<ReactRouterDOM.BrowserRouter basename="/react-without-webpack">
 		<NavBar />
 		<Route path="/" exact component={Home} />
 		<Route path="/contact" component={Contact} />
